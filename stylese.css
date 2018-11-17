@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+#about{
+    border-bottom: 3px solid #FFD837;
+    /* font-weight: 600; */
+}
+#profile, #contact, #porftfolio{
+    border-bottom: none;
+    font-weight: 500;
+}
+
+

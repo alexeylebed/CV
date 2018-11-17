@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+    <title>Alexey Lebed</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="avatar" id='profile'>
+                    <img src="images/avatar.jpg" class="avatarimg"alt="avatar">
+                    <a class="navelement" id = 'profileNavElement'href="index.html">Profile</a>
+                </div>
+                <div class="nav" id = "nav">
+                    <div class="navmobile" id="navmobile">
+                        <img src="images/menu.svg" class="burger" id = "burger" alt="">
+                        <div class="navinner" id = "navinner">
+                            <a class="navinnerelement"  href="experience.html" >Experience</a>
+                            <a class="navinnerelement"  href="portfolio.html">Skills</a>
+                            <a class="navinnerelement"  href="contacts.html">Contact</a>  
+                        </div>
+                        <style type="text/css">
+                            .navinner{
+                                display:none;
+                            }
+                        </style>
+                    </div> 
+                    <a class="navelement" id="about" href="experience.html" >Experience</a>
+                    <a class="navelement" id="portfolio" href="portfolio.html">Skills</a>
+                    <a class="navelement" id="contact" href="contacts.html">Contact</a>  
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class = 'profileInfo'>
+                <div class = 'avatarAndBackground'>
+                    <img src="images/avatar.jpg" alt="avatar" class = 'profileAvatarImg'>
+                </div>
+                <div class = 'mainProfileInfo'>
+                    <div class = 'mainProfileInfo_left'>
+                        <div class = 'mainProfileInfo_name' > Alexey Lebed</div> 
+                        <div class = 'mainProfileInfo_JobPosition' ><img class = mainProfileInfo_icon src = 'images/icons/position.svg'>Technical product manager, Fullstack developer</div> 
+                        <div class = 'mainProfileInfo_location' ><img class = mainProfileInfo_icon src = 'images/icons/placeholder.svg'>San Francisco Bay Area</div>
+                        <div class = 'mainProfileInfo_education'><img class = mainProfileInfo_icon src = 'images/icons/mortarboard.svg'>UC Berkeley</div>
+                    </div>
+                    <div class='mainProfileInfo_right'>
+                        <div class = 'mainProfileInfo_scoreBlock'>
+                            <div class = 'mainProfileInfo_score'>8</div>
+                            <div class = 'mainProfileInfo_description'>years experience in IT industry</div>
+                        </div>
+                        <div class = 'mainProfileInfo_scoreBlock'>
+                            <div class = 'mainProfileInfo_score'>4</div>
+                            <div class = 'mainProfileInfo_description'>products launched from   scratch</div>
+                        </div>
+                        <div class = 'mainProfileInfo_scoreBlock'>
+                            <div class = 'mainProfileInfo_score'>A</div>
+                            <div class = 'mainProfileInfo_description'>average score in UC Berkeley</div>
+                        </div>                     
+                    </div>
+                </div>
+                <div class = 'profileLine'></div>
+                <div class = 'profileDescritpion'>
+                        Ambitious and goal-oriented Technical Product Manager.
+                        I have a track record of scaling products in high-growth environments and have had 
+                        experience across the full spectrum of product management, including product-market-fit, 
+                        business case, product roadmap, feature development, go-to-market strategy, and launch planning. 
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

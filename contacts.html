@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="reset1.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesc.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <title>Alexey Lebed</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="avatar" id='profile'>
+                    <img src="images/avatar.jpg" class="avatarimg"alt="avatar">
+                    <a class="navelement" id = 'profileNavElement'href="index.html">Profile</a>
+                </div>
+                <div class="nav" id = "nav">
+                    <div class="navmobile" id="navmobile">
+                        <img src="images/menu.svg" class="burger" id = "burger" alt="">
+                        <div class="navinner" id = "navinner">
+                            <a class="navinnerelement"  href="experience.html" >Experience</a>
+                            <a class="navinnerelement"  href="portfolio.html">Skills</a>
+                            <a class="navinnerelement"  href="contacts.html">Contact</a>  
+                        </div>
+                        <style type="text/css">
+                            .navinner{
+                                display:none;
+                            }
+                        </style>
+                    </div> 
+                    <a class="navelement" id="about" href="experience.html" >Experience</a>
+                    <a class="navelement" id="portfolio" href="portfolio.html">Skills</a>
+                    <a class="navelement" id="contact" href="contacts.html">Contact</a>  
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+            <div class="container">
+                <div class="contact" id ="hidemenu">
+                    <h2 id = 'contactheader'>Contact me</h2>
+                    <br>
+                    <div class="form">
+                        <p class="inputlabel">Your name</p>
+                        <input type="text" placeholder=" For example: Jane Doe" class="stinput">
+                        <p class="inputlabel">Your name</p>
+                        <input type="text" placeholder=" For example: janedoe@gmail.com" class="stinput">
+                        <p class="inputlabel">Your message</p>
+                        <textarea name="your message" id="" cols="30" rows="10" placeholder=" Your message"></textarea>
+                        <button class="actionbutton" id = 'actionbutton'>Send</button>
+                        <div id = 'sentmessage'>Thank you! Your message has been sent.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="contacts.html"></script>
+</body>
+</html>
