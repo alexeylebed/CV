@@ -11,4 +11,46 @@ body{
     font-weight: 500;
 }
 
-
+.skillsBlock{
+    display: flex;
+    justify-content: space-between;
+    margin-top:80px;
+    padding-bottom: 40px;
+}
+.skillsColumn:nth-child(1){
+    margin-left:40px;
+}
+.skillsColumn:nth-child(3){
+    margin-right:40px;
+}
+.columnHeader{
+    font-size: 25px;
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+.skill{
+    display:flex;
+    margin-bottom: 10px;
+}
+.skillName{
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(157, 157, 157);
+    border-right: none;
+    text-align: center;
+    line-height: 40px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.skillYears{
+    width: 80px;
+    height: 40px;
+    color: #607D8B;
+    border: 1px solid #FFE887;
+    background-color: #FFE887;
+    text-align: center;
+    line-height: 40px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
